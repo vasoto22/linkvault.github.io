@@ -1,0 +1,40 @@
+{
+    "en": {
+        "title": "Changelog",
+        "entries": [
+            {
+                "version": "1.0.1",
+                "date": "2024-07-28",
+                "changes": [
+                    "Fixed a bug where the login button would not respond to clicks."
+                ]
+            },
+            {
+                "version": "1.0.0",
+                "date": "2024-05-30",
+                "changes": [
+                    "Initial release with basic functionality for user login and data processing."
+                ]
+            }
+        ]
+    },
+    "es": {
+        "title": "Registro de cambios",
+        "entries": [
+            {
+                "version": "1.0.1",
+                "date": "2024-07-28",
+                "changes": [
+                    "Se corrigió un error donde el botón de inicio de sesión no respondía a los clics."
+                ]
+            },
+            {
+                "version": "1.0.0",
+                "date": "2024-05-30",
+                "changes": [
+                    "Lanzamiento inicial con funcionalidad básica para inicio de sesión de usuario y procesamiento de datos."
+                ]
+            }
+        ]
+    }
+}

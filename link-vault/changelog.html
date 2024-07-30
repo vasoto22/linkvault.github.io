@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changelog</title>
+    <link rel="stylesheet" href="css/changelogs.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const lang = urlParams.get('lang') || 'en';
+
+            fetch('assets/changelog.json')
+                .then(response => response.json())
+                .then(data => {
+                    const changelog = data[lang];
+
+                    document.getElementById('changelog-title').innerText = changelog.title;
+
+                    const changelogContainer = document.getElementById('changelog');
+                    changelog.entries.forEach(entry => {
+                        const versionTitle = document.createElement('h2');
+                        versionTitle.innerText = `Version ${entry.version} - ${entry.date}`;
+                        changelogContainer.appendChild(versionTitle);
+
+                        const changeList = document.createElement('ul');
+                        entry.changes.forEach(change => {
+                            const changeItem = document.createElement('li');
+                            changeItem.innerText = change;
+                            changeList.appendChild(changeItem);
+                        });
+                        changelogContainer.appendChild(changeList);
+                    });
+                });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="changelog-title"></h1>
+        <div id="changelog"></div>
+    </div>
+</body>
+</html>
