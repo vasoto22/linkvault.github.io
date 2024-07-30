@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <link rel="stylesheet" href="css/privacy.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const lang = urlParams.get('lang') || 'en';
+
+            fetch('assets/privacy.json')
+                .then(response => response.json())
+                .then(data => {
+                    const policy = data[lang];
+
+                    document.getElementById('policy-title').innerText = policy.title;
+                    document.getElementById('last-updated').innerText = "Last Updated: " + policy.lastUpdated;
+
+                    const policyContainer = document.getElementById('policy-content');
+                    policy.content.forEach(section => {
+                        const sectionTitle = document.createElement('h2');
+                        sectionTitle.innerText = section.section;
+                        policyContainer.appendChild(sectionTitle);
+
+                        if (section.subsections) {
+                            section.subsections.forEach(subsection => {
+                                const subsectionTitle = document.createElement('h3');
+                                subsectionTitle.innerText = subsection.title;
+                                policyContainer.appendChild(subsectionTitle);
+
+                                const subsectionText = document.createElement('p');
+                                subsectionText.innerText = subsection.text;
+                                policyContainer.appendChild(subsectionText);
+                            });
+                        } else {
+                            const sectionText = document.createElement('p');
+                            sectionText.innerText = section.text;
+                            policyContainer.appendChild(sectionText);
+                        }
+                    });
+                });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="policy-title"></h1>
+        <p id="last-updated"></p>
+        <div id="policy-content"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+{
+    "title": "Attributions",
+    "attributions": [
+        {
+            "name": "Open Source Libraries",
+            "items": [
+                {
+                    "name": "Flutter",
+                    "url": "https://flutter.dev",
+                    "description": "An open-source UI software development toolkit created by Google."
+                },
+                {
+                    "name": "Dart",
+                    "url": "https://dart.dev",
+                    "description": "A client-optimized programming language for apps on multiple platforms."
+                },
+                {
+                    "name": "bloc",
+                    "url": "https://pub.dev/packages/bloc",
+                    "description": "A predictable state management library that helps implement the BLoC (Business Logic Component) design pattern."
+                },
+                {
+                    "name": "collection",
+                    "url": "https://pub.dev/packages/collection",
+                    "description": "Collections and utilities functions for Dart."
+                },
+                {
+                    "name": "cupertino_icons",
+                    "url": "https://pub.dev/packages/cupertino_icons",
+                    "description": "Icons for Cupertino widgets."
+                },
+                {
+                    "name": "easy_localization",
+                    "url": "https://pub.dev/packages/easy_localization",
+                    "description": "Easy and fast localization of your Flutter app."
+                },
+                {
+                    "name": "flutter_bloc",
+                    "url": "https://pub.dev/packages/flutter_bloc",
+                    "description": "Flutter Widgets that make it easy to implement the BLoC design pattern."
+                },
+                {
+                    "name": "flutter_svg",
+                    "url": "https://pub.dev/packages/flutter_svg",
+                    "description": "An SVG rendering and widget library for Flutter."
+                },
+                {
+                    "name": "get_it",
+                    "url": "https://pub.dev/packages/get_it",
+                    "description": "Simple direct Service Locator for Dart and Flutter apps."
+                },
+                {
+                    "name": "google_fonts",
+                    "url": "https://pub.dev/packages/google_fonts",
+                    "description": "A Flutter package for using fonts from fonts.google.com."
+                },
+                {
+                    "name": "http",
+                    "url": "https://pub.dev/packages/http",
+                    "description": "A composable, multi-platform, Future-based API for HTTP requests."
+                },
+                {
+                    "name": "isar",
+                    "url": "https://pub.dev/packages/isar",
+                    "description": "Super Fast Cross Platform Database for Flutter."
+                },
+                {
+                    "name": "isar_flutter_libs",
+                    "url": "https://pub.dev/packages/isar_flutter_libs",
+                    "description": "Flutter libraries for Isar Database."
+                },
+                {
+                    "name": "meta",
+                    "url": "https://pub.dev/packages/meta",
+                    "description": "Provides annotations used by the Dart analyzer to give hints to users about the intent of the code."
+                },
+                {
+                    "name": "package_info_plus",
+                    "url": "https://pub.dev/packages/package_info_plus",
+                    "description": "Flutter plugin for querying information about the application package."
+                },
+                {
+                    "name": "path_provider",
+                    "url": "https://pub.dev/packages/path_provider",
+                    "description": "A Flutter plugin for finding commonly used locations on the filesystem."
+                },
+                {
+                    "name": "share_plus",
+                    "url": "https://pub.dev/packages/share_plus",
+                    "description": "A Flutter plugin for sharing files, text, and URLs with other applications."
+                },
+                {
+                    "name": "shared_preferences",
+                    "url": "https://pub.dev/packages/shared_preferences",
+                    "description": "Flutter plugin for reading and writing simple key-value pairs."
+                },
+                {
+                    "name": "url_launcher",
+                    "url": "https://pub.dev/packages/url_launcher",
+                    "description": "Flutter plugin for launching a URL in the mobile platform."
+                }
+            ]
+        },
+        {
+            "name": "UI and Design Resources",
+            "items": [
+                {
+                    "name": "Google Fonts",
+                    "url": "https://fonts.google.com",
+                    "description": "Free licensed font families hosted by Google."
+                },
+                {
+                    "name": "Material Icons",
+                    "url": "https://material.io/resources/icons",
+                    "description": "Material design icon library."
+                }
+            ]
+        },
+        {
+            "name": "Backend Services",
+            "items": [
+                {
+                    "name": "Firebase",
+                    "url": "https://firebase.google.com",
+                    "description": "Platform developed by Google for creating mobile and web applications."
+                },
+                {
+                    "name": "Google Analytics",
+                    "url": "https://analytics.google.com",
+                    "description": "A service that tracks and reports website traffic."
+                }
+            ]
+        },
+        {
+            "name": "Image and Media Resources",
+            "items": [
+                {
+                    "name": "Unsplash",
+                    "url": "https://unsplash.com",
+                    "description": "Free high-resolution photos."
+                },
+                {
+                    "name": "Pexels",
+                    "url": "https://www.pexels.com",
+                    "description": "Free stock photos and videos."
+                }
+            ]
+        }
+    ]
+}

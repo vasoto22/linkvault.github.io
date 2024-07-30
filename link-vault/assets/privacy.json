@@ -1,0 +1,104 @@
+{
+    "en": {
+        "title": "Privacy Policy",
+        "lastUpdated": "2024-07-28",
+        "content": [
+            {
+                "section": "Introduction",
+                "text": "Welcome to our Privacy Policy. Your privacy is critically important to us."
+            },
+            {
+                "section": "Information We Collect",
+                "subsections": [
+                    {
+                        "title": "Personal Information",
+                        "text": "We collect personal information such as your name, email address, and phone number."
+                    },
+                    {
+                        "title": "Usage Data",
+                        "text": "We collect information on how you access and use our service, including your IP address, browser type, and the pages you visit."
+                    },
+                    {
+                        "title": "Cookies",
+                        "text": "We use cookies to track your preferences and activities on our site."
+                    }
+                ]
+            },
+            {
+                "section": "How We Use Information",
+                "text": "We use the information we collect in various ways, including to provide and maintain our service, notify you about changes, and provide customer support."
+            },
+            {
+                "section": "Data Security",
+                "text": "We implement a variety of security measures to maintain the safety of your personal information."
+            },
+            {
+                "section": "User Rights",
+                "text": "You have the right to access, correct, or delete your personal information. You can also object to the processing of your data or request that we restrict the processing of your data."
+            },
+            {
+                "section": "Third-Party Services",
+                "text": "We may employ third-party companies and individuals to facilitate our service, provide the service on our behalf, or assist us in analyzing how our service is used."
+            },
+            {
+                "section": "Changes to This Policy",
+                "text": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page."
+            },
+            {
+                "section": "Contact Us",
+                "text": "If you have any questions about this Privacy Policy, please contact us at: support@example.com"
+            }
+        ]
+    },
+    "es": {
+        "title": "Política de Privacidad",
+        "lastUpdated": "2024-07-28",
+        "content": [
+            {
+                "section": "Introducción",
+                "text": "Bienvenido a nuestra Política de Privacidad. Su privacidad es muy importante para nosotros."
+            },
+            {
+                "section": "Información que Recopilamos",
+                "subsections": [
+                    {
+                        "title": "Información Personal",
+                        "text": "Recopilamos información personal como su nombre, dirección de correo electrónico y número de teléfono."
+                    },
+                    {
+                        "title": "Datos de Uso",
+                        "text": "Recopilamos información sobre cómo accede y usa nuestro servicio, incluyendo su dirección IP, tipo de navegador y las páginas que visita."
+                    },
+                    {
+                        "title": "Cookies",
+                        "text": "Usamos cookies para rastrear sus preferencias y actividades en nuestro sitio."
+                    }
+                ]
+            },
+            {
+                "section": "Cómo Usamos la Información",
+                "text": "Utilizamos la información que recopilamos de varias maneras, incluyendo para proporcionar y mantener nuestro servicio, notificarle sobre cambios y proporcionar soporte al cliente."
+            },
+            {
+                "section": "Seguridad de los Datos",
+                "text": "Implementamos una variedad de medidas de seguridad para mantener la seguridad de su información personal."
+            },
+            {
+                "section": "Derechos del Usuario",
+                "text": "Usted tiene derecho a acceder, corregir o eliminar su información personal. También puede oponerse al procesamiento de sus datos o solicitar que restrinjamos el procesamiento de sus datos."
+            },
+            {
+                "section": "Servicios de Terceros",
+                "text": "Podemos emplear compañías e individuos de terceros para facilitar nuestro servicio, proporcionar el servicio en nuestro nombre o ayudarnos a analizar cómo se usa nuestro servicio."
+            },
+            {
+                "section": "Cambios a Esta Política",
+                "text": "Podemos actualizar nuestra Política de Privacidad de vez en cuando. Le notificaremos sobre cualquier cambio publicando la nueva Política de Privacidad en esta página."
+            },
+            {
+                "section": "Contáctenos",
+                "text": "Si tiene alguna pregunta sobre esta Política de Privacidad, por favor contáctenos en: soporte@example.com"
+            }
+        ]
+    }
+}
